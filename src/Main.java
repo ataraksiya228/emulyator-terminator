@@ -26,13 +26,13 @@ public class Main {
                 case "ls":
                     System.out.println("Команда: " + command);
                     System.out.print("Аргументы: ");
-                    for (String arg : arguments) System.out.print(arg + " ");
+                    for (String arg : arguments) System.out.println(arg + " ");
                     System.out.println();
                     break;
                 case "cd":
                     System.out.println("Команда: " + command);
                     System.out.print("Аргументы: ");
-                    for (String arg : arguments) System.out.print(arg + " ");
+                    for (String arg : arguments) System.out.println(arg + " ");
                     System.out.println();
                     break;
                 case "exit":
